@@ -7,6 +7,8 @@ class Template(str, Enum):
     OUTPUT = "output.jinja"
     README = "readme.md.jinja"
     AZURE_YAML = "azureyaml.jinja"
+    AI_HUB_BICEP = "modules/aihub/aihub.bicep.jinja"
+    AI_HUB_MODULE = "modules/aihub/aihub.module.jinja"
     AI_SEARCH_BICEP = "modules/aisearch/aisearch.bicep.jinja"
     AI_SEARCH_MODULE = "modules/aisearch/aisearch.module.jinja"
     AI_SERVICES_BICEP = "modules/aiservices/aiservices.bicep.jinja"

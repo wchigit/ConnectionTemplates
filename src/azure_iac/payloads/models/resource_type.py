@@ -4,6 +4,7 @@ from azure_iac.payloads.models.connection_type import ConnectionType
 
 
 class ResourceType(str, Enum):
+    AZURE_AI_HUB = "azureaihub"
     AZURE_AI_SEARCH = "azureaisearch"
     AZURE_AI_SERVICES = "azureaiservices"
     AZURE_APP_SERVICE = "azureappservice"

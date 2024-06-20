@@ -7,6 +7,7 @@ class Template(str, Enum):
     OUTPUT = "output.tf.jinja"
     BLOCKS = "blocks.tf.jinja"
     README = "README.md.jinja"
+    AI_HUB_TF = "modules/aihub/aihub.tf.jinja"
     AI_SEARCH_TF = "modules/aisearch/aisearch.tf.jinja"
     AI_SERVICES_TF = "modules/aiservices/aiservices.tf.jinja"
     APP_INSIGHTS_TF = "modules/applicationinsights/applicationinsights.tf.jinja"

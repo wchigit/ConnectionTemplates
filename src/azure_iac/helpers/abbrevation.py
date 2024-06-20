@@ -2,6 +2,7 @@ from enum import Enum
 
 
 class Abbreviation(str, Enum):
+    AI_HUB = "aih"
     AI_SEARCH = "ais"
     AI_SERVICES = "aisvc"
     APPLICATION_INSIGHTS = "ai"
